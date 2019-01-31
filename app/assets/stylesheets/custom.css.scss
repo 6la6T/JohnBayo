@@ -8,7 +8,7 @@ html, body {
 
 body{
    
-    background-image: url('bg.jpg');
+    background: asset_url('bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
@@ -46,7 +46,7 @@ iframe{
     margin-right: 5%;
     border: 13px solid #ffd966;
     border-radius: 20px;
-    background-image: image-url('log.png');
+    background: asset_url('log.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
